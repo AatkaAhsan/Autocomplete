@@ -1,0 +1,79 @@
+.submit-button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4c8dff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #3280e4;
+}
+
+.clear-button:hover {
+    color: #f00;
+}
+
+.autocomplete {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.input-container {
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.clear-button {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #888;
+}
+
+.clear-button:focus {
+    outline: none;
+}
+
+.results-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.results-list li {
+    padding: 6px;
+    cursor: pointer;
+}
+
+.results-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.results-list li strong {
+    color: blue;
+}
+
+.results-list li:hover strong {
+    color: #007bff;
+}
